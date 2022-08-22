@@ -1,0 +1,117 @@
+
+body{
+    background: var(--color-third);
+}
+
+.main-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.header-icon{
+    height: 80px;
+    border-radius: 50px;
+}
+
+.header-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.header-menu-action{
+    color: var(--color-white);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main-content{
+    border-top: 0.4px solid var(--color-first);
+    margin-bottom: 48px;
+}
+
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+.first-section-img{
+    height: 500px;
+}
+
+.first-section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.first-section-content-title{
+  font-family: 'Rubik Dirt', cursive;
+  color: var(--color-white);
+  font-weight: 300;
+  font-size: 60px;
+}
+
+.first-section-content-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.first-section-content-btn{
+    background-color: var(--color-first);
+    color: var(--color-second);
+    font-size: 20px;
+    border: none;
+    width: 180px;
+    height: 67px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.309);
+    cursor: pointer;
+}
+
+.first-section-content-btn:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+.second-section{
+    
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-content{
+    border-top: 0.4px solid var(--color-first);
+    margin-top: 50px;
+}
+
+.section-content-title{
+    padding-top: 10px;
+    font-family:'Rubik Dirt', cursive;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section-content-subtitle{
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.footer-content{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content p,a{
+    color: var(--color-first);
+}
